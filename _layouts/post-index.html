@@ -17,6 +17,9 @@
   {% if page.image.feature %}
     <div class="entry-image">
       <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}">
+      <!--<svg id="chart" width="900" height="500"
+  viewBox="0 0 1260 500"
+  preserveAspectRatio="xMidYMid meet" alt="steamgraph"></svg>-->
     </div><!-- /.entry-image -->
   {% endif %}
   <div class="header-title">
@@ -26,7 +29,6 @@
     </div><!-- /.header-title-wrap -->
   </div><!-- /.header-title -->
 </div><!-- /.entry-header -->
-
 <div id="main" role="main">
   {{ content }}
 </div><!-- /#main -->

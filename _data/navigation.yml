@@ -1,7 +1,10 @@
 # Menu navigation links
 
-- title: Theme Setup
-  url: /theme-setup/
+- title: Feminist Critiques
+  url: /feminist-critiques/
 
-- title: External Link
-  url: http://mademistakes.com
+- title: Background and Methods
+  url: /background-methods/
+
+- title: Computational Analysis
+  url: /computation/
