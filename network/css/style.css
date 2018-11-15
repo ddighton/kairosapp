@@ -581,3 +581,8 @@ display: none;
     bottom: 80px;
 }
 
+.back-link a:hover {
+	text-decoration: underline;
+    cursor: pointer;
+}    
+
