@@ -16,18 +16,17 @@
   {% if page.image.credit %}<div class="image-credit">Image source: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
   {% if page.image.feature %}
     <div class="entry-image">
-      <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}">
-      <!--<svg id="chart" width="900" height="500"
-  viewBox="0 0 1260 500"
-  preserveAspectRatio="xMidYMid meet" alt="steamgraph"></svg>-->
+     <!-- <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}"> -->
+      <svg id="chart" viewBox="0 0 1260 500" preserveAspectRatio="xMidYMid" alt="steamgraph"></svg>
     </div><!-- /.entry-image -->
   {% endif %}
   <div class="header-title">
     <div class="header-title-wrap">
       <h1>{{ site.title }}</h1>
       <h2>{{ page.title }}</h2>
+      <h2><a href="#main">Enter Web Text</a></h2>
     </div><!-- /.header-title-wrap -->
-  </div><!-- /.header-title -->
+  </div><!-- /.header-title --> 
 </div><!-- /.entry-header -->
 <div id="main" role="main">
   {{ content }}

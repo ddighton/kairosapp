@@ -1,0 +1,66 @@
+/* iframe css */
+
+iframe.voyant {
+    float: left;
+    padding: 10px 10px 20px 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  iframe.voyant {
+    float: none;
+    padding: 5px;
+    width: 100%;
+  }
+}
+
+/* image css */
+
+.page-img {
+    float: left;
+    padding-right: 20px;
+}
+
+@media only screen and (max-width: 550px) {
+  .page-img {
+      float: none;
+      padding: 10px;
+  }
+  .page-img img {
+      width: 100% !important;
+ }
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* header link css */
+
+.entry-header h2 a {
+    background: rgba(34,34,34,0.4);
+    padding: 5px 10px;
+    border: solid 1px black !important;
+    position: relative;
+    top: 100px;
+}
+
+.entry-header h2 a:hover {
+    background: rgba(34,34,34,0.8);
+}
+
+/* inpage next links */
+
+a.next-page {
+    background: rgba(162,162,162,0.4);
+    border: solid 1px black;
+    padding: 5px 10px;
+    float: right;
+    position: relative;
+    bottom: 10px;
+    color: black;
+}
+
+a.next-page:hover {
+    background: rgba(162,162,162,0.8);
+}
+
