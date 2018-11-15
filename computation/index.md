@@ -42,5 +42,5 @@ Although these ways of exploring the large dataset were interesting and provided
 
 <div id="network"></div>
 <div class="next-container">
-	<a class="next-page" href="/network/">Next Page</a>
+	<a class="next-page" href="{{ site.url }}/network/">Next Page</a>
 </div>	

@@ -35,5 +35,5 @@ After a year, I had collected over 600,000 tweets, and after two years I had alm
 <iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"></iframe>
 
 <div class="next-container">
-	<a class="next-page" href="/feminist-critiques/">Next Page</a>
+	<a class="next-page" href="{{ site.url }}/feminist-critiques/">Next Page</a>
 </div>
