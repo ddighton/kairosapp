@@ -3,7 +3,7 @@ layout: page
 title: Background and Methods
 description: ""
 image:
-  feature: abstract-11.jpg
+  feature: abstract-10.jpg
   credit: dargadgetz
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
   
@@ -34,7 +34,7 @@ During the first year of data collection, I converted the JSON files of the Twit
 {% include image.html image="/images/gentrification_wordcount.png" width="475px" height="380px" description="wordcount graph" %}
 {% include image.html image="/images/gentrification_bigrams.png" width="475px" height="380px" description="bigram graph" %}
 </div>
-<figcaption>caption</figcaption>
+<figcaption>Figure 1: R analysis of tweet word and bigram count</figcaption>
 
 In the initial word frequency visualization, issues of race and specific locations emerge. Generating bigrams, however, provides a more contextualized rendering of these themes. Instead of “people”, the bigram is “white people”; “anti” becomes “anti-gentrification”and “art” is “public art.” These richer descriptions might point to the prevalence of perceived agents involved in gentrification identified by users across the corpus as a whole or in areas where tweets are more prevalent. Because bigrams are word pairs, locations become clearer, for instance: Los Angeles, Boyle Heights, Boston’s Chinatown. This early partial sample analysis allowed me to focus subsequent research efforts and visualization practices around these emerging themes and locations in a way that human reading 600,000 tweets probably never would have. This kind of macroanalysis (Graham, Milligan, and Weingart, 2015; Jockers, 2013; Ramsay, 2011) can complement traditional methods of close reading and research; however, as Jockers notes:
 

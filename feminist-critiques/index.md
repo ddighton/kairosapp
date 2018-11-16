@@ -3,7 +3,7 @@ layout: page
 title: Feminist Critiques of Data and Visualization
 description: ""
 image:
-  feature: abstract-11.jpg
+  feature: abstract-1.jpg
   credit: dargadgetz
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
   
@@ -61,82 +61,6 @@ I offer the following framework to as a way to highlight shared principles and m
    
 In the following pages, I’ll demonstrate how I’ve attempted to practice this feminist methodology through strategies of rhetorical arrangement and grounded theory that recover stories of activism, value the small data in large collections, and creates multiple visualizations that add poly-vocal nuance instead of the truth value often associated with computational analytics and data analytics.
 
-
-**Pro-tip:** Delete the `gh-pages` branch after cloning and start fresh by branching off `master`. There is a bunch of garbage in `gh-pages` used for the theme's demo site that I'm guessing you don't want on your site.
-{: .notice}
-
 <div class="next-container">
 	<a class="next-page" href="{{ site.url }}/background-methods/">Next Page</a>
 </div>	
-
----
-
-```bash
-bundle exec jekyll build
-
-bundle exec jekyll serve
-```
-
----
-
-## Folder Structure
-
-```bash
-hpstr-jekyll-theme/
-├── _includes
-|    ├── browser-upgrade.html       # prompt to upgrade browser on < IE8
-|    ├── footer.html                # site footer
-|    ├── head.html                  # site head
-|    ├── navigation.html            # site navigation
-|    └── scripts.html               # jQuery, plugins, GA, etc
-├── _layouts
-|    ├── page.html                  # page layout
-|    ├── page.html                  # post-index layout used on home page
-|    └── post.html                  # post layout
-├── _posts
-├── _sass                           # Sass partials
-├── assets
-|    ├── css                        # compiled stylesheets
-|    ├── js
-|    |   ├── _main.js               # plugin options
-|    |   ├── scripts.min.js         # concatenated and minifed site scripts
-|    |   ├── plugins                # plugin scripts
-|    └── └── vendor                 # jQuery and Modernizr scripts
-├── images                          # images for posts and pages
-├── _config.yml                     # Jekyll options
-├── about/                          # about page
-├── posts/                          # all posts
-├── tags/                           # all posts grouped by tag
-└── index.html                      # home page with pagination
-```
-
----
-
-This theme supports **link posts**, made famous by John Gruber. To use, just add `link: http://url-you-want-linked` to the post's YAML front matter and you're done.
-
-```yaml
-- title: Portfolio
-  url: /portfolio/
-
-- title: Made Mistakes
-  url: http://mademistakes.com  
-```
-
----
-
-```yaml
-image:
-  feature: feature-image-filename.jpg
-  credit: Michael Rose #name of the person or site you want to credit
-  creditlink: http://mademistakes.com #url to their site or licensing
-```
-
-```scss
-$feature-image-height: 400px; // min 150px recommended
-$front-page-feature-image-height: 400px; // min 150px recommended
-```
----
-
-[^1]: Used to generate absolute URLs in `feed.xml`, and for canonical URLs in `head.html`. Don't include a trailing `/` in your base url ie: http://mademistakes.com. When developing locally I suggest using http://localhost:4000 or whatever localhost you're using to properly load all theme stylesheets, scripts, and image assets. If you leave this variable blank all links will resolve correctly except those pointing to home.
-
-[^2]: If you're using GitHub Pages to host your site be aware that plugins are disabled. So you'll need to build your site locally and then manually deploy if you want to use this sweet plugin.
