@@ -15,17 +15,29 @@ iframe.voyant {
 
 /* image css */
 
-.page-img {
+.feature-img {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.page-img-left {
     float: left;
     padding-right: 20px;
 }
 
+.page-img-right {
+    float: right;
+    padding-left: 20px;
+}
+
 @media only screen and (max-width: 550px) {
-  .page-img {
+  .page-img-left,
+  .page-img-right {
       float: none;
       padding: 10px;
   }
-  .page-img img {
+  .page-img-left img,
+   .page-img-right img,{
       width: 100% !important;
  }
 }

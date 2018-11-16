@@ -1,1 +1,10 @@
-<div class='page-img'><img src="{{ site.url }}{{ include.image }}" width="{{ include.width }}" height="{{ include.height }}" alt="{{include.description}}" /></div>
+{% if include.caption %}
+<figure class='{{ include.class }}'>
+	<img src="{{ site.url }}{{ include.image }}" width="{{ include.width }}" height="{{ include.height }}" alt="{{include.description}}" />
+	<figcaption>{{ include.caption }}</figcaption>
+</figure>
+{% else %}
+<div class='{{ include.class }}'>
+	<img src="{{ site.url }}{{ include.image }}" width="{{ include.width }}" height="{{ include.height }}" alt="{{include.description}}" />
+</div>	
+{% endif %}
