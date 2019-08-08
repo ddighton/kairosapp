@@ -100,3 +100,82 @@ a.next-page:hover {
   }
 }
 
+/* header image redesign  */
+
+.entry-image {
+    height: 100px !important;
+    min-height: 100px !important;
+}
+
+/* header text redesign  */
+
+.feature .header-title h1 {
+    margin: 0;
+}
+
+@media only screen and (min-width: 62.5em) {
+  .header-title h1 {
+      font-size: 40px;
+  }
+}
+
+.feature .header-title {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 0;
+}
+
+@media only screen and (min-width: 48em) {
+  .header-title h1 {
+      font-size: 32px !important;
+  }
+}
+
+.header-title h1 {
+    font-size: 21px;
+}
+
+
+/* homepage header fixes  */
+
+#post-index .entry-image {
+    position: relative;
+    top: -50%;
+    left: -50%;
+    width: 200% !important;
+    height: 200% !important;
+}
+
+@media only screen and (min-width: 62.5em) {
+  #post-index .header-title h1 {
+      font-size: 4rem !important;
+  }
+}
+
+
+@media only screen and (min-width: 48em) {
+  #post-index h1 {
+      font-size: 3.2rem !important;
+  }
+}
+
+#post-index h1 {
+    font-size: 2.1333333333rem;
+}
+
+
+#post-index .header-title h1 {
+  margin: 10px 60px !important;
+}
+
+#post-index .entry-image {
+    min-height: 600px !important;
+}
+
+@media only screen and (max-width: 1000px) {
+  .next-container {
+      padding-bottom: 10px;
+  }
+}
+

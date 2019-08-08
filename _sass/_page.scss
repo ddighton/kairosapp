@@ -97,8 +97,7 @@ body {
 	position: absolute;
 	top: 0;
 	display: table;
-	margin-top: 0;
-	width: 100%;
+	width: inherit;
 	height: $feature-image-height;
 	overflow: hidden;
 

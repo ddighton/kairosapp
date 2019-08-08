@@ -1,13 +1,12 @@
 ---
 layout: page
-title: Looking Beyond Computational Analysis
+title: Arranging a Rhetorical Feminist Methodology
 description: ""
 image:
   feature: abstract-5.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
   
 ---
+# Looking Beyond Computational Analysis
 
 ## Authoring Analyses and Visualizations: Tableau and 2,000,000 Tweets
 

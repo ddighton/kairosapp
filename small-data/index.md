@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Small Data Talks Back
+title: Arranging a Rhetorical Feminist Methodology
 description: ""
 image:
   feature: abstract-8.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
   
 ---
+
+# Small Data Talks Back
 
 ## Listening for the Silences & Gaps: Locating DBH in 2,000,000 Tweets
 

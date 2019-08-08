@@ -1,10 +1,12 @@
 ---
-layout: post
-title: Introduction
+layout: page
+title: Arranging a Rhetorical Feminist Methodology
 description: ""
 image:
-  background: triangular.png
+  feature: abstract-1.jpg
+  
 ---
+## Introduction
 
 In recent years, rhetoric and writing studies scholars have started to work with big data and the technologies used to collect, process, and visualize a vast array of social phenomena. One such project is Laurie Gries’ (2016) Kairos publication, which analyzes different forms of data, including social media, to track the ongoing circulation and transformation of the Obama Hope image, largely through data visualization tools. In another Kairos piece, William I. Wolff (2015) describes his methodology for collecting and examining a sizable corpus of tweets around a Bruce Springsteen concert as a means by which to characterize Twitter-based fan writing practices. Jason Palmeri and Ben McCorkle (2017) analyze 100 years of English Journal through coding schemes and data visualization methods to historicize the disciplinary development of writing studies’ relationship to technology. The authors of each publication thoughtfully reflect on the constraints and limitations of their studies, particularly highlighting the ways in which their choices in data collection, processing, and visualization have shaped their findings. 
 

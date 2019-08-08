@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Background and Methods
+title: Arranging a Rhetorical Feminist Methodology
 description: ""
 image:
   feature: abstract-10.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
   
 ---
+# Background and Methods
+
 ## Infrastructure: The Inventive Possibilities of Arrangement
 
 Recent work by digital rhetoric and writing studies scholars demonstrates growing engagement with what Douglas Eyman (2016) maps as one of the emerging directions in digital rhetoric: a socio-cultural and technological engagement with infrastructure, including “the [often blackboxed] software tools that allow nearly anyone to expertly remix content across multiple modes and media” (p. 29). Key to Eyman’s definition of infrastructure is an understanding and fluency with the ways different kinds of technologies work and the social and institutional knowledge of the infrastructures in which these technologies are housed and employed. Rhetorical concerns with infrastructure have manifested in multiple special issues in digital rhetoric journals, like Present Tense’s special issue on the [Rhetoric of Platforms](https://www.presenttensejournal.org/news/special-issue-cfp/), which argues that theorizing and practicing digital rhetoric is inseparable from considerations of infrastructure, or “a meeting point of hardware, software, and culture” (Present Tense, Platform CFP). Such research points to the way in which digital infrastructures create unique and constantly shifting constraints and possibilities for composition and agency. As Jim Ridolfo and Danielle Nicole DeVoss (2009) argue, the infrastructure of Web 2.0 allows for the rhetorical velocity of texts and necessitates a digital update to the canon of delivery. John Gallagher (2017) reveals how the infrastructural layer of algorithms creates new media audiences that participate in the remix and remediation of digital texts and data. According to the growing body of writing studies literature focusing on infrastructure, the shape data and visualization take is not controlled solely by the researcher, nor is agency enacted only by users, but co-constructed by the technologies and multiple situated contexts that become involved in communication and analytic technologies.
