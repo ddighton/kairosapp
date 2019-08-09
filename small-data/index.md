@@ -81,7 +81,7 @@ Initially, I tried the same Tableau techniques I’d used with the large dataset
 
 The chart Secondary Hashtags (Figure 4) provides a way to understand the issues DBH connects with their overall purpose of opposing gentrification as well as key locations and targeted direct actions while also mapping them onto time periods by month. Rolling the cursor over October 2018 highlights issues like solidarity, rent control, housing is a human right, etc, that DBH chose to connect and index their tweets to by using a hashtag naming that issue (Image 3).
 
-{% include image.html class="page-img-right" image="/images/close_up_hash_oct28.png" width="500px" height="auto" description="Close up of DBH hashtag use on Oct. 28, 2018" caption="Image 3: Close up of DBH hashtag use on Oct. 28, 2018" %}
+{% include lightbox.html class="page-img-right" src="/images/close_up_hash_oct28.png" data="group" title="Close up of DBH hashtag use on Oct. 28, 2018" width="500px" height="auto" caption="Image 3: Close up of DBH hashtag use on Oct. 28, 2018" %}
 
 ## Dissenting from Analytics: Locating DBH in Situated Geographies
 

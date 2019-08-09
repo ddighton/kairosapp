@@ -46,11 +46,11 @@ In Anti-Gentrification Tweets from 2016-2018 (Figure 2), the peaks in retweets s
 
 The greatest peak occurs on August 25th, with most of data showing retweets of the following original tweet text and image:
 
-{% include image.html class="feature-img" image="/images/swift_formation_meme.png" width="500px" height="auto" description="Taylor Swift Gentrification Meme" caption="Image 1: Most Retweeted Anti-Gentrification Tweet: Swift Formation Meme" %}
+{% include lightbox.html class="feature-img" src="/images/swift_formation_meme.png" data="group" title="Taylor Swift Gentrification Meme" width="500px" height="auto" caption="Image 1: Most Retweeted Anti-Gentrification Tweet: Swift Formation Meme" %}
 
 In the subsequent retweets, mentions, and remixes, users argue that Taylor Swift is “gentrifying” Beyonce’s song “Formation” in her music video for “Look What You Made Me Do.” Subsequent tweets include variations, such as remixed lyrics like, “I got ketchup in my bag, swag” and “I see it, I want it, I steal it so I’ll own it.” Not only do users participate in creating arguments about gentrification through visual and textual remix, users also argue about whether a term like “gentrification” can be applied to music and music videos.
 
-{% include image.html class="feature-img" image="/images/tweet_conversation.png" width="500px" height="auto" description="Conversation about Taylor Swift Gentrification Tweet" caption="Image 2: Conversation about Taylor Swift Gentrification Tweet" %}
+{% include lightbox.html class="feature-img" src="/images/tweet_conversation.png" data="group" title="Conversation about Taylor Swift Gentrification Tweet" width="500px" height="auto" caption="Image 2: Conversation about Taylor Swift Gentrification Tweet" %}
 
 The date of this tweet happens to be important, since this activity followed the Video Music Awards and users were involved in the popular Twitter practice of live tweeting an event. In their study of Occupy Wall Street through Twitter, Joel Penney and Caroline Dadas (2014) observe that the:
 
@@ -62,13 +62,14 @@ Although most users whose tweets were collected as a part of my two-year study o
 
 Perhaps examining individual tweets and visual rhetoric like the Swift Gentrification meme are richer ways of knowing this data than the Tableau graphs and charts; however, because it’s not feasible to human-read a collection of nearly two-million tweets, data visualization is a necessary part of working with this data, and it can be a productive way to locate data for further study. Tableau’s many different graphs, charts, and map visualizations, as Drucker points out, are “formats [that] are effective, efficient, and surprisingly obfuscating” (p. 907). By “obfuscating,” Drucker is referring to the way in which these visualization conventions seem to be objectively relaying neutral information: “nowhere is there a single overt marking that indicates the image is a mode of address, a structuring instrument rhetorically engaged in productions of power” (p. 907). Even when the audience of the visualization is the researcher, as in my case, it’s important to be aware of how the visualization directs one’s focus to read the most quantitatively visible tweets as the most significant.
 
-{% include image.html class="page-img-right" image="/images/cider_graffiti.png" width="500px" height="auto" description="Hipster hard cider tweet" %}
+{% include lightbox.html class="page-img-right" src="/images/cider_graffiti.png" data="group" title="Hipster hard cider tweet" width="500px" height="auto" %}
+
 
 It would be easy simply not to see tweets that appear only once, or users whose tweets aren’t retweeted in viral proportions. Because Tableau allows users to click on any point in the line and explore the underlying data, data which often contains more than just the most frequent posts, conceivably, a researcher could pick out tweets that weren’t the most frequent. This would have to be a conscious methodological decision since the visualization functions by graphically orienting the gaze to the quantitatively greatest data items. Furthermore, Tableau visualizations are all different shades of quantitative measurement of attributes, like dates that correspond with tweet activity, users who tweet the most, and those whose tweets are most retweeted. In order to reorient our gaze from the greatest to what might be hidden beneath the most frequently occurring aspects of our dataset, we can push against data analytic and visualization software to find the small data that might otherwise go unseen.
 
 These computational ways of exploring the large dataset provide a way for understanding how ad-hoc anti-gentrification rhetors communicate about gentrification, particularly in how gentrification is associated with white cultural domination, appropriation, and commodification of nonwhite culture and spaces; however, Tableau doesn’t illuminate any of the tweets made by more organized anti-gentrification groups. 
 
-{% include image.html class="page-img-left" image="/images/15_dollar_40.png" width="500px" height="auto" description="$15 40 ounce tweet" %}
+{% include lightbox.html class="page-img-left" src="/images/15_dollar_40.png" data="group" width="500px" height="auto" title="$15 40 ounce tweet" %}
 
 I knew such groups existed in the dataset, partly through my initial R frequency analysis of bigrams, but also through human reading portions of the dataset spreadsheet. To make Tableau see these smaller groups, who, because they act more locally and outside of the realm of celebrity and entertainment, are not retweeted to the extent that memes about Taylor Swift or fifteen dollar 40s are, I separated all tweets that contained “Boyle Heights,” a frequently mentioned location in the R analysis. I used these tweets to create a separate database and conducted additional research to provide a smaller-scale partial view of anti-gentrification rhetoric that also strives to situate and contextualize data in bodies and geographical spaces.
 
