@@ -13,6 +13,16 @@ body {
    Main content
    ========================================================================== */
 
+
+#main p {
+    @include font-size(20);
+}
+
+#main li {
+    @include font-size(20);
+    margin-bottom: 20px;
+}
+
 .entry,
 .hentry {
 	@include clearfix;
@@ -20,7 +30,6 @@ body {
 	h1, h2, h3, h4, h5, h6, p, li {
 		word-wrap: break-word;
 		padding: 0px 40px;
-		@include font-size(20);
 	}
 }
 

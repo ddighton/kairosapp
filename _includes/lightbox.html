@@ -1,7 +1,7 @@
 {% if include.caption %}
 <figure class='{{ include.class }}'>
 	<a href="{{ site.url }}{{ include.src }}" data-lightbox="{{ include.data }}" data-title="{{ include.title }}"><img src="{{ site.url }}{{ include.src }}" alt="{{ include.title }}" width="{{ include.width }}" height="{{ include.height }}"/></a>
-	<figcaption>{{ include.caption }}</figcaption>
+	<figcaption><i>{{ include.captitle }}:</i> {{ include.caption }}</figcaption>
 </figure>
 {% else %}
 <figure class='{{ include.class }}'>

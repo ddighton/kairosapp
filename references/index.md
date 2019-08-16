@@ -1,6 +1,6 @@
 ---
 layout: page
-title: References
+title: Arranging a Rhetorical Feminist Methodology
 description: ""
 image:
   feature: abstract-4.jpg
